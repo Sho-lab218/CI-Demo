@@ -1,4 +1,4 @@
-const double defaultTipPercent = 15;
+const double defaultTipPercent = 0;
 
 double splitBill(double bill, int people,
     {double tipPercent = defaultTipPercent}) {
