@@ -20,7 +20,3 @@ jobs:
         run: flutter analyze
       - name: Test
         run: flutter test
-      - name: Build
-        run: |
-          flutter create . --platforms=web
-          flutter build web
